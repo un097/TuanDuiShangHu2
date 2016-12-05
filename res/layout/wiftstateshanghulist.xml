@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="35dp"
+		    android:descendantFocusability="beforeDescendants"
+		    android:orientation="horizontal"
+		    android:background="@color/qinghui"
+		     >
+		    
+<!-- 		    android:paddingLeft="25dip"
+		    android:paddingRight="20dip" -->
+
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.2"
+		        android:id="@+id/wifistatetext1"
+		        android:gravity="center"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/neirong" />
+
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.3"
+		        android:id="@+id/wifistatetext2"
+		        android:gravity="center"
+		        android:textColor="@color/black"
+		        android:paddingBottom="1dp"
+		        android:textSize="@dimen/main" />
+
+		    <Button
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.8"
+		        android:id="@+id/wifistatetext3"
+		        android:gravity="center"
+		        android:text="查看"
+		        android:background="@drawable/myselector_bt"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/main" />
+
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.3"
+		        android:gravity="center"
+		        android:id="@+id/wifistatetext4"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/main" />
+
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:id="@+id/wifistatetext5"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/main" />
+
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.2"
+		        android:gravity="center"
+		        android:id="@+id/wifistatetext6"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/main" />
+
+		    <Button
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.8"
+		        android:gravity="center"
+		       	android:id="@+id/wifistatetext7"
+		      	android:text="查看"
+		      	android:background="@drawable/myselector_bt"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/main" />
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.3"
+		        android:gravity="center"
+		      	android:id="@+id/wifistatetext8"
+		        android:textColor="@color/black"
+		        android:paddingBottom="1dp"
+		        android:textSize="@dimen/main" />
+		    
+	
+</LinearLayout>

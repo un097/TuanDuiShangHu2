@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000dp"
+    android:layout_height="300dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etdialog_tv01"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etbackground"
+            android:textColor="@color/black"
+            android:textSize="@dimen/btnTextSizehead"
+            android:visibility="gone" />
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     
+        android:gravity="center"
+        android:orientation="vertical" >
+   <TextView
+        android:id="@+id/string_textViewnum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"             
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:textSize="22dp"
+        >
+    </TextView>
+        <EditText
+            android:id="@+id/etdialog_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etbackground"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/btnTextSizehead" >
+        </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1024dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/etdialog_bg"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/etdialog_gv01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:horizontalSpacing="5dip"
+            android:numColumns="10"
+            android:padding="10dp"
+            android:stretchMode="columnWidth" />
+
+        <LinearLayout
+            android:layout_width="1024dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/etdialog_bt01"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/etdialog_bt"
+                android:gravity="center"
+                android:text="确定"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/etdialog_bt02"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/etdialog_btbottom"
+                android:gravity="center"
+                android:text="*"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/etdialog_bt03"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/etdialog_btbottom"
+                android:gravity="center"
+                android:text="x"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/etdialog_bt04"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/etdialog_btbottom"
+                android:gravity="center"
+                android:text="0000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/etdialog_pointbt"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/etdialog_btbottom"
+                android:gravity="center"
+                android:text="."
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/etdialog_bt05"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/etdialog_btbottom"
+                android:gravity="center"
+                android:text="删除"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/etdialog_bt06"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/etdialog_bt"
+                android:gravity="center"
+                android:text="取消"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

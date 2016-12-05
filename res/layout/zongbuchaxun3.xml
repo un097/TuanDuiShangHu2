@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/lxp.panelex.view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b2" >
+<RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="公司查询"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+        </RelativeLayout>
+    
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/hyedit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="503dp"
+            android:layout_y="405dp"
+            android:gravity="center"
+            android:background="@drawable/h1"
+            android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="314dp"
+            android:layout_y="417dp"
+            android:text="营业执照注册号"
+            
+            android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_x="314dp"
+            android:layout_y="334dp"
+            android:text="城市"
+            android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+        <TextView
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_x="314dp"
+            android:layout_y="243dp"
+            android:text="大区"
+            android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+        <TextView
+            android:id="@+id/hyedit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="407dp"
+            android:layout_y="319dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/h3" 
+            android:textColor="@color/gray1"
+            android:textSize="@dimen/neirong"/>
+
+        <TextView
+            android:id="@+id/hyedit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="407dp"
+            android:layout_y="233dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/h3"
+            android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+    </AbsoluteLayout>
+ <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/b4" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/b5" />
+        </RelativeLayout>
+  <!--  <include layout="@layout/panel" /> -->
+
+</FrameLayout>

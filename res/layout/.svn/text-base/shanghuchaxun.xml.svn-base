@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/lxp.panelex.view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b2" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="商户查询"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="560px"
+            android:layout_marginLeft="90px"
+            android:layout_marginRight="60px"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/yleout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60px"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="54px"
+                        android:text="商户名"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/yedtext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/g3"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+
+                    <TextView
+                        android:layout_width="30px"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/myselector_bt"
+                        android:text="查询"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right_linearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="500px"
+                android:layout_below="@+id/lltv"
+                android:orientation="horizontal"
+                android:paddingLeft="15px"
+                android:paddingRight="25px" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1000px"
+            android:layout_height="60px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"/>
+
+            <!--
+                    <TextView
+                android:layout_width="300px"
+                android:layout_height="wrap_content" />
+
+            -->
+
+            <Button
+                android:id="@+id/shouye_xd"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/myselector_bt"
+                android:text="首 页"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3" >
+            </TextView>
+
+            <Button
+                android:id="@+id/shangye_xd"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/myselector_bt"
+                android:text="上 一 页"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pagenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" >
+            </TextView>
+
+            <Button
+                android:id="@+id/xiaye_xd"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0.3"
+                android:background="@drawable/myselector_bt"
+                android:text="下 一 页"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3" >
+            </TextView>
+
+            <Button
+                android:id="@+id/moye_xd"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0.3"
+                android:background="@drawable/myselector_bt"
+                android:text="末 页"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_weight="0.3">
+            </TextView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/myselector_bt"
+                android:text="返 回"
+                android:textColor="@color/black"
+                android:textSize="@dimen/main" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

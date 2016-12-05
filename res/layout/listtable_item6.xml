@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+    android:layout_width="0dip"
+    android:layout_height="60dip" 
+    android:textSize="@dimen/btnTextSizebody"
+     android:layout_weight="4"
+     android:gravity="center_vertical"
+    android:id="@+id/listtable_tv1"
+    android:textColor="@color/black"
+    />
+   
+    
+    <techown.shanghu.biaoge.MyButton
+	 android:id="@+id/shortcut_delete"
+	 android:gravity="center"
+	 android:layout_width="0dp"
+	 android:layout_height="wrap_content"
+	 android:text="查看具体信息"	
+	 android:layout_weight="1"
+	 android:textColor="@color/black"	 
+	 android:background="@drawable/myselector_bt"
+	 android:focusable="false"
+	 android:clickable="true"
+	
+	 />
+    <TextView
+    android:layout_width="0dip"
+    android:layout_height="60dip" 
+     android:layout_weight="1"
+     android:gravity="center_vertical"
+    android:textColor="@color/black"
+    />
+    
+    </LinearLayout>

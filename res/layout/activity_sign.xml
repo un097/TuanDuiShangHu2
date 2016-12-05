@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="20px"
+        android:paddingRight="20px" >
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestures_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gestureColor="@color/black"
+            android:gestureStrokeType="multiple" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103px" >
+
+        <Button
+            android:id="@+id/btn_sign_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:background="@drawable/btn_prebg"
+            android:text="修改"
+            android:textSize="30dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_sign_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="75px"
+            android:background="@drawable/btn_nextbg"
+            android:text="确认"
+            android:textSize="30dp"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

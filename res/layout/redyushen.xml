@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b2" >
+  	<RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="105dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="最红预审信息"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+       </RelativeLayout>
+
+		<LinearLayout
+    		android:id="@+id/right_linearLayout"
+    		android:layout_width="fill_parent"
+    		android:layout_height="535dp"
+    		android:orientation="vertical"
+    		android:paddingLeft="85dip"
+    		android:paddingRight="60dip" >
+          
+		</LinearLayout>
+		<RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/b4" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/b5" />
+        </RelativeLayout>
+</LinearLayout>

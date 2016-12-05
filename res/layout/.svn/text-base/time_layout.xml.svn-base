@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="490dp"
+	android:orientation="vertical"
+	android:background="@drawable/date_context"
+	>
+	<TextView
+    	
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/datetitle"
+    	android:textSize="@dimen/btnTextSizehead"
+    	android:gravity="center"
+    	android:textColor="@color/white"
+    	android:background="@drawable/date_top"
+    />
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"		
+		android:layout_gravity="center" 
+		android:gravity="center"
+		android:orientation="horizontal"	
+	>
+
+		<techown.shanghu.date.WheelView
+			android:id="@+id/year"
+			 android:layout_height="wrap_content"
+			 android:layout_width="165dp"	
+			android:layout_gravity="center" 		
+			 android:gravity="center"
+			 />
+		<techown.shanghu.date.WheelView
+			android:id="@+id/month" 
+			android:layout_height="wrap_content"
+			 android:layout_width="165dp"	
+			android:layout_gravity="center" 
+			android:gravity="center"
+			/>
+		<techown.shanghu.date.WheelView
+			android:id="@+id/day"
+			 android:layout_height="wrap_content"
+			 android:layout_width="165dp"	
+			 android:layout_gravity="center" 
+			 android:gravity="center"/>
+			
+	</LinearLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"	
+		android:gravity="center"
+	 android:background="@drawable/date_bottom"
+	>
+		<Button android:id="@+id/btn_datetime_sure"
+			android:layout_width="87dp"
+			 android:text="@string/button_confirm"
+			android:layout_height="33dp"
+			android:background="@drawable/myselector_buttondown"
+			android:textSize="@dimen/btnTextSizeother"
+			android:layout_alignParentLeft="true"
+      		android:layout_marginLeft="20dip">
+      </Button>
+		<Button android:id="@+id/btn_datetime_cancel"			
+			android:layout_width="87dp" 
+			android:text="@string/button_cancel"
+			android:layout_height="33dp" 
+			android:layout_alignParentRight="true"
+			android:background="@drawable/myselector_buttondown"
+			android:textSize="@dimen/btnTextSizeother"
+     android:layout_marginRight="20dip">
+     </Button>
+	</RelativeLayout>
+
+</LinearLayout>

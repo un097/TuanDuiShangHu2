@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:panel="http://schemas.android.com/apk/res/lxp.panelex.view" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="@drawable/b2">
+- 	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="vertical">
+- 		<RelativeLayout 
+			android:id="@+id/LinearLayout1" 
+			android:layout_width="fill_parent" 
+			android:layout_height="90dip" 
+			android:orientation="vertical">
+  		<TextView 
+  		    android:layout_width="wrap_content" 
+  		    android:layout_height="wrap_content" 
+  		    android:layout_alignParentBottom="true" 
+  		    android:layout_centerHorizontal="true" 
+  		    android:text="门店列表" 
+  		    android:textAppearance="?android:attr/textAppearanceLarge" 
+  		    android:textColor="@color/black" 
+  		    android:textSize="@dimen/title" /> 
+  		</RelativeLayout>
+  		<TextView 
+  		    android:layout_width="100dp" 
+  		    android:layout_height="wrap_content"/> 
+- 		<LinearLayout 
+			android:layout_width="wrap_content" 
+			android:layout_height="550dp" 
+			android:layout_marginLeft="90dip" 
+			android:layout_marginRight="60dip" 
+			android:orientation="vertical">
+  			<LinearLayout 
+  			    android:id="@+id/right_linearLayout" 
+  			    android:layout_width="wrap_content" 
+  			    android:layout_height="wrap_content" 
+  			    android:orientation="horizontal" 
+  			    android:layout_below="@+id/lltv" 
+  			    android:paddingLeft="55dip" 
+  			    android:paddingRight="40dip" /> 
+  			</LinearLayout>
+  			
+    
+    	<LinearLayout
+       		android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       	 	android:clickable="false"
+      	 	android:gravity="center"
+       	 	android:orientation="horizontal" >	
+       	 	<Button 
+       	 	    android:id="@+id/fanhui_button"
+       	 	    android:layout_weight="1"
+       	 	    android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="返回"
+	    		android:background="@drawable/myselector_bt"
+	   	 		android:textColor="@color/black"
+	    		android:layout_alignParentRight="true"
+       	 	    />
+       	 	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+         		android:layout_weight="1" >
+    		</TextView>
+      		<Button android:id="@+id/shouye_xd"
+	   			android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:text="首页"
+	    		android:background="@drawable/myselector_bt"
+	   	 		android:textColor="@color/black"
+	    		android:layout_alignParentRight="true"/>
+      		<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+         		android:layout_weight="1" >
+    		</TextView>
+      		<Button android:id="@+id/shangye_xd"
+	   			android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:text="上一页"
+	    		android:background="@drawable/myselector_bt"
+	   	 		android:textColor="@color/black"
+	    		android:layout_alignParentRight="true"/>
+      		<TextView
+      		    android:id="@+id/pagenum"
+      		    android:gravity="center"
+      		    android:textSize="16sp"
+      		    android:layout_weight="1"
+         		android:layout_width="wrap_content"
+         		android:textColor="@color/black"
+         		android:layout_height="wrap_content" >
+    		</TextView>
+      		
+      		<Button android:id="@+id/xiaye_xd"
+	   			android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="下一页"
+	    		android:layout_weight="1"
+	    		android:background="@drawable/myselector_bt"
+	   	 		android:textColor="@color/black"
+	    		android:layout_alignParentRight="true"/>
+      		<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+         		android:layout_weight="1" >
+    		</TextView>
+      		<Button android:id="@+id/moye_xd"
+	   			android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="末页"
+	    		android:layout_weight="1"
+	    		android:background="@drawable/myselector_bt"
+	   	 		android:textColor="@color/black"
+	    		android:layout_alignParentRight="true"/>
+    	</LinearLayout>
+    
+    
+  			
+  		</LinearLayout>
+  </FrameLayout>

@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/lxp.panelex.view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b2" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="114dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp"
+                android:text="活动信息录入"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" >
+        </TextView>
+		<ScrollView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="525dp">
+		    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="525dp"
+            android:layout_marginLeft="90dip"
+            android:layout_marginRight="60dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="活动金额底限"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="返还金额上限"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong2"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout3"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="签约日期"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong3"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout4"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="返还比例"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong4"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:paddingRight="20dip"
+                        android:gravity="right"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                    <TextView
+                        android:text="%"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+                
+                    <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout5"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="优惠开始日期"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong5"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout6"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="优惠截止日期"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong6"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            
+                        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout7"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="是否发布"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong7"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:id="@+id/redlayout8"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="是否驻店"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong8"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            
+                            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout9"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="驻店面积"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong9"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout10"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="驻店人数"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong10"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout11"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="驻店时长"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong11"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout12"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="驻店开始时间"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong12"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout13"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="驻店结束时间"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong13"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/redlayoutduanxin"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="是否发送短信"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodongduanxin"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout15"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="拓展人工号"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong15"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout16"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="拓展人姓名"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong16"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/redlayout17"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="维护人工号"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong17"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/redlayout18"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="维护人姓名"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong18"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:paddingLeft="50dip"
+                       
+                        android:text="卡种"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                   
+
+                        <RadioButton
+                            android:id="@+id/taipingyang_radioButton"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:checked="true"
+                            android:paddingLeft="50dip"
+                            
+                            android:text="所有太平洋卡"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/taipingyang2_radioButton"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                           
+                            android:text="所有太平洋信用卡"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/puka_radioButton"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="普卡"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/jinka_radioButton"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="金卡"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" 
+                            />
+
+                        <RadioButton
+                            android:id="@+id/baijin_radioButton"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="白金卡"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/other_radioButton"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.9"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="其他卡种"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+                </LinearLayout>
+                
+                    
+                   <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:paddingLeft="50dip"
+                       
+                        android:text="活动日"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                   
+
+                        <RadioButton
+                            android:id="@+id/redhuodongyi"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:checked="true"
+                            android:paddingLeft="50dip"
+                            
+                            android:text="星期一"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/redhuodonger"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                           
+                            android:text="星期二"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/redhuodongsan"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="星期三"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/redhuodongsi"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="星期四"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" 
+                            />
+
+                        <RadioButton
+                            android:id="@+id/redhuodongwu"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="星期五"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+
+                        <RadioButton
+                            android:id="@+id/redhuodongliu"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="星期六"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+                        <RadioButton
+                            android:id="@+id/redhuodongqi"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/myselector_radiobutton"
+                            android:paddingLeft="50dip"
+                            android:text="星期日"
+                            android:textColor="@color/gray1"
+                            android:textSize="@dimen/neirong" />
+                </LinearLayout>
+          
+			<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:id="@+id/redlayout20"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="行业活动"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong20"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:paddingRight="100dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:id="@+id/redlayout21"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:paddingLeft="50dip"
+                        android:text="短信内容"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong21"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:id="@+id/redlayout22"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:paddingLeft="50dip"
+                        android:text="优惠内容"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/redhuodong22"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+		</ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/b4" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/b5" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- <include layout="@layout/panel" /> -->
+
+</FrameLayout>

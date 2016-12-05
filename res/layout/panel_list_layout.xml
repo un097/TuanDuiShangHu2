@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"	
+	android:layout_height="50dip"
+	android:gravity="center_vertical"
+	>									      				
+		<TextView 
+		android:layout_height="wrap_content"
+		android:id="@+id/panel_list_tv"  
+		android:textColor="@color/black"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal|center_vertical"		
+		android:textSize="@dimen/btnTextSizeother"
+
+		>
+	</TextView>	
+	<ImageView 
+	android:layout_height="wrap_content"
+	android:layout_width="50dip"
+	android:layout_marginLeft="5dip"
+	android:layout_marginRight="5dip"
+	android:id="@+id/panel_list_img" 
+	android:gravity="center" 
+
+	>
+	</ImageView>									
+</LinearLayout>	
+				

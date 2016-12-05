@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#fd8d8d</color>
+    <color name="gray1">#484848</color>
+	<color name="green">#9cfda3</color>
+	<color name="blue">#8d9dfd</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="gray">#050505</color>
+	<color name="sp">#EDEDED</color>
+	 <color name="transparent">#00000000</color> 
+	 <color name="gesture_color">#FFFFFF00</color>
+	<color name="aliceblue">#F0F8FF</color>
+	 <color name="qinghui">#DCDCDC</color>
+</resources>

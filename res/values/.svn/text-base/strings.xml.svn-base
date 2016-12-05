@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TuanDuiShangHuActivity!</string>
+    <string name="app_name">商务团队应用</string>
+<string name="alert_dialog_text_entry">请输入</string>
+ <string name="msgNotify">订单支付信息录入</string>
+
+       
+    <string name="button_exitapp">退出录入</string> 
+    <string name="button_model">申请表模式</string>
+    <string name="button_kjfs">快捷方式</string>
+    <string name="button_next">下一页</string>
+    <string name="button_before">上一页</string>
+    <string name="datetitle">请选择日期</string>
+    <string name="button_confirm">确定</string>
+   	<string name="button_cancel">取消</string>
+        
+   	<string name="cardcheck_line01_01">卡类选择</string>
+   	<string name="cardcheck_line02_01">卡品牌选择</string>
+   	<string name="cardcheck_line03_01">如果您申请货记卡金卡而本行暂不能为您核发，本行将视为货记卡普通卡申请进行批核。</string>
+   	<string name="cardcheck_checkbox_01">如本行暂不能为您核发贷记卡，但您符合MORE卡条件，是否愿意核发MORE卡</string>
+   	<string name="cardcheck_checkbox_02">本人愿意在成功申请贷记卡的情况下自动申请借记卡</string> 
+   	
+   	<string name="billaddress01_radiogroup">账单地址</string>
+   	<string name="billaddress01_radio_01">家庭地址</string>
+   	<string name="billaddress01_radio_02">公司地址</string>
+   	<string name="billaddress01_line02_01">家庭地址（省）</string>
+   	<string name="billaddress01_line02_02">公司地址（省）</string>
+   	<string name="billaddress01_line03">（市）</string>
+   	<string name="billaddress01_line03_01">（区，县）</string>
+   	<string name="billaddress01_line03_02">（乡，镇）</string>
+   	<string name="billaddress01_line04_01">详细地址</string>
+   	<string name="billaddress01_line05_01">邮编</string>
+   	<string name="billaddress01_line05_02">家庭电话</string> 
+   	<string name="billaddress01_line05_03">固话</string>  
+   	<string name="billaddress01_line06_01">家庭电话和您本人关系</string> 
+   	<string name="billaddress01_line06_02">集团号</string>   
+        
+   <string name="paperinfor_line01">证件种类</string>
+    <string name="paperinfor_line02">证件号</string>
+    <string name="paperinfor_line03">证件有效期起始日期</string>
+    <string name="paperinfor_line03_02">证件有效期截至日期</string>
+    <string name="paperinfor_line04_01">姓名</string>
+    <string name="paperinfor_line04_02">拼音/英文名</string>
+    <string name="paperinfor_line05_01">出生日期</string>
+    <string name="paperinfor_line05_02">性别</string>
+    <string name="man">男</string>
+   	<string name="woman">女</string>
+   	
+   	<string name="person_line01_01">国家地区</string>
+   	<string name="person_line02_01">籍贯</string>
+   	<string name="person_line02_02">省</string>
+   	<string name="person_line02_03">市</string>
+   	<string name="person_radiogroup">婚姻状况</string>
+   	<string name="person_radio01">未婚</string>
+   	<string name="person_radio02">已婚</string>
+   	<string name="person_radio03">其他</string>
+   	<string name="person_line04_01">教育程度</string>
+   	<string name="person_line04_02">供养人数</string>
+   	<string name="person_line05_01">住宅情况</string>
+   	<string name="person_line05_02">入住年月</string>
+   	<string name="person_line06_01">移动电话</string>
+   	<string name="person_line07_01">Email</string>
+   	<string name="person_line08_01">毕业的小学</string>
+   	<string name="person_line09_01">私有车辆车牌号</string>
+   	<string name="person_line09_02">就业状态</string>
+   	<string name="person_line10_01">单位名称及部门</string>
+   	<string name="person_line11_01">单位性质</string>
+   	<string name="person_line11_02">行业类别</string>
+   	<string name="person_line12_01">岗位</string>
+   	<string name="person_line12_02">职业</string>
+   	<string name="person_line13_01">前一单位工龄(月)</string> 
+   	<string name="person_line13_02">现单位工作起始年月</string>
+   	<string name="person_line14_01">税前年薪收入(元)</string>
+   	<string name="person_line14_02">其他收入(元)</string>
+   	<string name="person_line15_01">您的薪金是否以银行自动转账方式支付</string>
+   	<string name="person_radio_yes">是</string>
+   	<string name="person_radio_no">否</string>
+   	<string name="person_line16_01">您联系人的姓名</string>
+   	<string name="person_line16_02">与您的关系</string>
+   	<string name="person_line17_01">联系人移动电话</string>
+   	<string name="person_line17_02">联系人住宅电话</string>
+   	<string name="person_line18_01">联系人单位名称</string>
+   	<string name="person_line19_01">您是否已是交行银行客户</string>
+   	<string name="person_line20_01">您拥有的其他货记卡发卡行</string>
+   	<string name="person_line20_02">主卡会员卡号</string>
+   	
+   	<string name="notes_line5_01">附属卡申请人性别</string>
+   	<string name="notes_line7_01">与主卡申请人的关系</string>
+   	
+   	<string name="deal_line1">货记卡默认开通账单日自动购汇，美元账户欠款在账单日自动转换成人民币账户欠款若您不同意开通此项功能，请勾选不同意。（此项不适用于MORE卡）</string>
+   	<string name="deal_line02">不同意</string>
+   	<string name="deal_line03">信用卡刷卡消费默认使用签名交易，但您可在此选择在中国银联商户（贴有包含"仅受理信用卡"或"仅支持签名"字样的银联标识商户除外）刷卡消费时使用密码确认交易</string>
+   	<string name="deal_line04">主卡</string>
+   	<string name="deal_line05">附属卡</string>
+   	
+   	
+   	<string name="cardinfo_title">信用卡信息录入</string>
+   	<string name="cardinfo_button01">6F</string>
+   	<string name="cardinfo_button02">8B</string>
+   	<string name="cardinfo_button03">废件</string>
+   	<string name="cardinfo_button04">草稿箱</string>
+   	<string name="cardinfo01_line01_01">来源代码：</string>
+   	<string name="cardinfo01_line01_02">活动代码：</string>
+   	<string name="cardinfo01_line02_01">推广方式代码：</string>
+   	<string name="cardinfo01_line03_01">VIP字段：</string>
+   	<string name="cardinfo01_line03_02">CS字段：</string>
+   	<string name="cardinfo01_line04_01">联盟代码：</string>
+   	<string name="cardinfo01_radio01">ID核</string>
+   	<string name="cardinfo01_radio02">ID核&amp;亲核</string>
+   	
+   	
+   	<string name="papersinfo01_title">证件信息</string>
+   	<string name="papersinfo01_line01_01">证件种类</string>
+   	<string name="papersinfo01_line02_01">证件号</string>
+   	<string name="papersinfo01_line03_01">证件有效期起始日期</string>
+   	<string name="papersinfo01_line03_02">证件有效期截止日期</string>
+   	<string name="papersinfo01_line04_01">姓名</string>
+   	<string name="papersinfo01_line04_02">拼音/英文名</string>
+   	<string name="papersinfo01_line05_01">出生日期</string>
+   	<string name="papersinfo01_line05_02">性别</string>
+   
+   	   	 	  	
+   	<string name="companyaddress01_title">公司地址</string>
+   	<string name="companyaddress01_line01_01">公司地址</string>
+   	<string name="companyaddress01_line02_01">（省）</string>
+   	<string name="companyaddress01_line02_02">（市）</string>
+   	<string name="companyaddress01_line03_01">（区，县）</string>
+   	<string name="companyaddress01_line03_02">（乡，镇）</string>
+   	<string name="companyaddress01_line04_01">详细地址</string>
+   	<string name="companyaddress01_line05_01">邮编</string>
+   	<string name="companyaddress01_line05_02">固话</string>
+   	<string name="companyaddress01_line05_03">集团号</string>
+   	
+    <string name="headpicturetitle">拍摄身份头像</string>
+   	<string name="passwordtitle">动态密码验证</string>
+    <string name="passagin">重新发送</string>   
+   	<string name="savecgx">存至草稿箱</string>
+   	<string name="sure">验证</string>
+   	<string name="fangqi">放弃</string>
+   	<string name="password_tv">请输入动态密码</string>
+   	
+   	<string name="contracttitle">纸质合约拍摄</string>
+   	<string name="guoqi">6F</string>
+   	<string name="gfx">8B</string>
+   	<string name="big">放大</string>
+   	<string name="paishe">拍摄</string>
+   	<string name="tijiao">提交</string>
+   	<string name="submittv">是否提交该申请？</string>
+   	<string	name="headpicturetv">请您先点击拍摄按钮，拍摄身份头像！</string>
+   	
+   	<string name="button_return">返回</string>
+   	<string name="button_exit">退出录入</string>
+   	
+  
+   	
+   	<string name="reject_title">退件原因</string>
+   	<string name="reject_delete">删除</string>
+   	<string name="reject_bq">补齐</string>
+</resources>

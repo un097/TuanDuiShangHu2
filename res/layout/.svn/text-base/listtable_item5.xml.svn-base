@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/listtable_tv1"
+        android:layout_width="176dp"
+        android:layout_height="60dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:id="@+id/listtable_tv2"
+        android:layout_width="185dp"
+        android:layout_height="60dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:id="@+id/listtable_tv3"
+        android:layout_width="222dp"
+        android:layout_height="60dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:id="@+id/listtable_tv4"
+        android:layout_width="170dp"
+        android:layout_height="60dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="60dip"
+        android:textColor="@color/black" />
+  
+    <techown.shanghu.biaoge.MyButton
+	  android:id="@+id/shortcut_delete"
+	  android:layout_width="80dp"
+	  android:layout_height="wrap_content"
+	 
+	  android:text="选择"	
+	   android:textColor="@color/black"	 
+	  android:background="@drawable/myselector_bt"
+	  android:focusable="false"
+	  android:clickable="true"
+	
+	 />
+
+    </LinearLayout>

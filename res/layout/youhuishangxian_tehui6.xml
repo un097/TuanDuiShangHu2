@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b2" >
+	 <RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="文宣拍摄"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+        </RelativeLayout>
+    <AbsoluteLayout 
+        android:layout_width="fill_parent"
+   	 	android:layout_height="fill_parent"
+        >
+
+        <ListView
+            android:id="@+id/imageList"
+            android:layout_width="169dp"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:layout_x="779dp"
+            android:layout_y="107dp"
+            android:divider="#00000000"
+            android:fadeScrollbars="true" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/etlayout3"
+            android:layout_width="386dp"
+            android:layout_height="58dp"
+            android:layout_x="100dp"
+            android:layout_y="327dp"
+            android:background="@drawable/myselector_shortlayout" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="247dp"
+                android:layout_y="399dp"
+                android:text="门贴/其他数量"
+                android:textColor="@color/black"
+                android:textSize="@dimen/main" />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_x="403dp"
+                android:layout_y="391dp"
+          
+               android:gravity="center"
+                android:textColor="@color/gray1"
+                android:textSize="@dimen/neirong" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/etlayout2"
+            android:layout_width="387dp"
+            android:layout_height="58dp"
+            android:layout_x="100dp"
+            android:layout_y="262dp"
+            android:background="@drawable/myselector_shortlayout" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="257dp"
+                android:layout_y="299dp"
+                android:text="海报/宣传贴数量"
+                
+                android:textColor="@color/black"
+                android:textSize="@dimen/main" />
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_x="403dp"
+                android:layout_y="293dp"
+      
+               android:gravity="center"
+                android:textColor="@color/gray1"
+                android:textSize="@dimen/neirong" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/takephoto1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_x="513dp"
+            android:layout_y="182dp"
+            android:text="收银台卡/跳跳卡(必选)"
+            android:background="@drawable/myselector_changbt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/takephoto3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_x="514dp"
+            android:layout_y="328dp"
+            android:text="门贴/其他拍摄(可选)"
+            android:background="@drawable/myselector_changbt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/takephoto2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_x="515dp"
+            android:layout_y="257dp"
+            android:text="海报/宣传贴拍摄(必选)"
+            android:background="@drawable/myselector_changbt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/chaogaoxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="224dp"
+            android:layout_y="471dp"
+            android:text="保存草稿箱"
+            android:background="@drawable/myselector_bt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="539dp"
+            android:layout_y="466dp"
+            android:background="@drawable/myselector_bt"
+            android:text="提交"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="386dp"
+            android:layout_y="469dp"
+            android:background="@drawable/myselector_bt"
+            android:text="返回"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <LinearLayout
+            android:id="@+id/etlayout1"
+            android:layout_width="394dp"
+            android:layout_height="58dp"
+            android:layout_x="100dp"
+            android:layout_y="189dp"
+            android:background="@drawable/myselector_shortlayout" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="257dp"
+                android:layout_y="201dp"
+                android:gravity="center"
+                android:text="收银台卡/跳跳卡数量"
+                android:textColor="@color/black"
+                android:textSize="@dimen/main" />
+
+            <TextView
+                android:id="@+id/editText1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_x="403dp"
+                android:layout_y="192dp"
+                android:gravity="center"
+                android:textColor="@color/gray1"
+                android:textSize="@dimen/neirong" />
+        </LinearLayout>
+
+    </AbsoluteLayout>
+    
+
+</LinearLayout>

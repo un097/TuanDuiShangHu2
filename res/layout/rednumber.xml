@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/lxp.panelex.view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b2">
+	<RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="105dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10dip"
+                android:text="最红管理"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+     </RelativeLayout>
+     <ScrollView 
+         android:layout_width="fill_parent"
+         android:layout_height="510dip"
+         android:layout_gravity="center_vertical">
+         <LinearLayout 
+         android:id="@+id/table"
+         android:orientation="vertical"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:gravity="center">
+        <LinearLayout 
+            android:id="@+id/shanghulayout"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dip"
+            android:gravity="center">
+        <TextView 
+         	android:text="商户编号："
+         	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:paddingRight="20dip"
+         	android:gravity="center"
+         	android:textSize="@dimen/main"
+         	android:textColor="@color/black"/>
+    	<TextView
+            android:id="@+id/shanghuno"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/h1"
+            android:textColor="@color/gray1"
+            android:textSize="@dimen/neirong"/>
+    	<TextView 
+    	    android:layout_width="40dip"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center"/>
+    	<Button 
+             android:id="@+id/addbtn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/myselector_bt"
+             android:textColor="@color/black"
+             android:textSize="@dimen/main"
+             android:text="添加"/>
+        </LinearLayout>
+     </LinearLayout>
+     </ScrollView>
+     <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/toppage"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/b4" />
+
+            <Button
+                android:id="@+id/bottompage"
+                android:layout_width="55dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/b5" />
+        </RelativeLayout>
+</LinearLayout>

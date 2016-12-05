@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="500dp"  
+    android:background="@drawable/tvdialogbg"
+    android:orientation="vertical" >  
+     <TextView
+        android:id="@+id/string_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textSize="22dp" >
+    </TextView>
+   <EditText
+        android:id="@+id/dialog_editText"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dip"
+        android:paddingRight="30dip"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizehead" >
+    </EditText>
+
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dip"
+        android:layout_marginBottom="3dip" >
+
+        <Button
+            android:id="@+id/cancle_button"
+            android:layout_width="0dip"
+            android:layout_height="48dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/myselector_canclebt" />
+        <LinearLayout
+            	android:id="@+id/okno"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="7"
+                android:visibility="invisible"
+                android:orientation="horizontal" >
+                <TextView
+                    android:text="短信内容字数："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/neirong" />
+                <TextView
+                    android:id="@+id/duanxinnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/neirong" />
+                <TextView
+                    android:text="可分为："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/neirong" />
+                <TextView
+                    android:id="@+id/duanxinno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/neirong" />
+            </LinearLayout>
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="0dip"
+            android:layout_height="48dip"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/myselector_okbt"/>
+    </LinearLayout>
+  	
+</LinearLayout > 

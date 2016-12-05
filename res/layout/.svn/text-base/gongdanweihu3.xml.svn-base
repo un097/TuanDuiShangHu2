@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/lxp.panelex.view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b2" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="114dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="22dp"
+                android:text="上门工单"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+
+        </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" >
+            </TextView>
+
+
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="447dp"
+    android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="510dp"
+            android:layout_marginLeft="90dip"
+            android:layout_marginRight="60dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/g3leout1"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="商户接洽人"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/g3et1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/g3leout2"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:paddingLeft="20dip"
+                        android:text="联系电话"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/g3et2"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+					android:id="@+id/g3leout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50dip"
+                        android:text="接洽内容"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:id="@+id/g3et3"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            
+                
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:orientation="horizontal">
+                <LinearLayout 
+                   	android:layout_width="0dip"
+                	android:layout_height="60dip"
+               	 	android:orientation="horizontal"
+                	android:layout_weight="1"
+                	android:background="@drawable/myselector_banlayout" 
+                	>
+                    <TextView 
+	                   
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    
+	                    android:paddingLeft="50dip"
+	                    android:layout_gravity="center_vertical"
+	                    android:text="文宣是否到位"
+	                    android:textColor="@color/black"
+	                    android:textSize="@dimen/main"/>
+	                <TextView 
+	                    android:id="@+id/wenxuan"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	               
+	                    android:layout_marginLeft="50dp"
+	                    android:textColor="@color/gray1"
+	                    android:textSize="@dimen/main" 
+	                    android:background="@drawable/myselector_bt"
+	                    android:layout_gravity="center"
+	                    android:gravity="center"
+	                    android:clickable="true"
+	                    android:text=""/>
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="0dip"
+                	android:layout_height="60dip"
+               	 	android:orientation="horizontal"
+               	 	android:layout_weight="1"
+                	android:background="@drawable/myselector_shortlayout" >
+                    <TextView 
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    
+	                    android:layout_gravity="center_vertical"
+	                    android:text="摆放是否正确"
+	                    android:textColor="@color/black"
+	                    android:textSize="@dimen/main"/>
+	                <TextView
+	                    android:id="@+id/baifang"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                
+	                    android:layout_marginLeft="50dp"
+	                    android:textColor="@color/gray1"
+	                    android:textSize="@dimen/main" 
+	                    android:background="@drawable/myselector_bt"
+	                    android:layout_gravity="center"
+	                    android:gravity="center"
+	                    android:clickable="true"
+	                    android:text=""/>
+                </LinearLayout>
+                
+                
+                
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1.3"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="50dip"
+                        android:text="经纬度信息"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <Button
+                        android:id="@+id/getGpsBtn"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+						android:text="GPS定位"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" 
+                        android:background="@drawable/myselector_bt"/>
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_weight="0.7"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.44"
+                        android:text="经度"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:text="0"
+                        android:id="@+id/longitude"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+
+                     <TextView
+                         android:layout_width="0dip"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="0.32"
+                         android:text="纬度"
+                         android:textColor="@color/black"
+                         android:textSize="@dimen/main" />
+
+                    <TextView
+                        android:text="0"
+                       	android:id="@+id/latitude"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/gray1"
+                        android:textSize="@dimen/neirong" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+
+                        <LinearLayout
+                            android:layout_width="457dip"
+                            android:layout_height="60dip"
+                            android:layout_weight="0.59"
+                            android:background="@drawable/myselector_shortlayout"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.7"
+                                android:paddingLeft="50dip"
+                                android:text="消费消息"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/main" />
+
+                            <!-- <Button
+                                android:id="@+id/gbutton_add"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/myselector_bt"
+                                android:layout_weight="0.2"
+                                android:text="添加"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/main" /> -->
+                             <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.7"
+                                android:paddingLeft="50dip"
+                                
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/main" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                        
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    android:background="@drawable/myselector_shortlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="消费日期"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                       android:gravity="center"
+                        android:text="金额"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+                    
+                     <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="授权号"
+                       android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+                     <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="卡号"
+                       android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+                  
+                </LinearLayout>
+            </LinearLayout>
+<LinearLayout
+                android:id="@+id/gss_layoutAll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <LinearLayout
+               
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/g3leout4"
+                    android:layout_width="1001dp"
+                    android:layout_height="60dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                      <TextView
+                        android:id="@+id/g3et4"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                       
+                        android:textColor="@color/gray1"
+                        android:gravity="center"
+                        android:textSize="@dimen/neirong" />
+                      </LinearLayout>
+ 				<LinearLayout
+                    android:id="@+id/g3leout5"
+                    android:layout_width="1001dp"
+                    android:layout_height="60dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                   
+                    <TextView
+                        android:id="@+id/g3et5"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                       
+                        android:textColor="@color/gray1"
+                        android:gravity="center"
+                        android:textSize="@dimen/neirong" />
+                    </LinearLayout>
+                     <LinearLayout
+                    android:id="@+id/g3leout6"
+                    android:layout_width="1001dp"
+                    android:layout_height="60dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/myselector_banlayout"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/g3et6"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                       
+                        android:textColor="@color/gray1"
+                        android:gravity="center"
+                        android:textSize="@dimen/neirong" />
+                    </LinearLayout>
+                     <LinearLayout
+                    android:id="@+id/g3leout7"
+                    android:layout_width="1001dp"
+                    android:layout_height="60dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/myselector_banlayout1"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/g3et7"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                       
+                        android:textColor="@color/gray1"
+                        android:gravity="center"
+                        android:textSize="@dimen/neirong" />
+                    </LinearLayout>
+                </LinearLayout>
+                        
+                        
+           </LinearLayout>
+           
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/myselector_shortlayout"
+        >
+           
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="WIFI检查情况"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/main"
+            />
+        
+        <RadioGroup 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton 
+                android:id="@+id/rb_common"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="   已正常使用"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="@color/gray1"
+	            android:textSize="@dimen/neirong"
+	            android:button="@drawable/myselector_radiobutton"
+            />
+        
+	        <RadioButton 
+	            android:id="@+id/rb_fix"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="   故障-已报修"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="@color/gray1"
+	            android:textSize="@dimen/neirong"
+	            android:button="@drawable/myselector_radiobutton"
+	            />
+        
+	        <RadioButton 
+	            android:id="@+id/rb_practise"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="   装修/移机-已提报撤机"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="@color/gray1"
+	            android:textSize="@dimen/neirong"
+	            android:button="@drawable/myselector_radiobutton"
+	            />
+        
+	        <RadioButton 
+	            android:id="@+id/rb_close"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="   闭店-已提报撤机"
+	            android:textColor="@color/gray1"
+	            android:layout_marginLeft="10dp"
+	            android:textSize="@dimen/neirong"
+	            android:button="@drawable/myselector_radiobutton"
+	            />
+	        <RadioButton 
+	            android:id="@+id/rb_SHSYBD"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="   商户使用不当"
+	            android:textColor="@color/gray1"
+	            android:layout_marginLeft="10dp"
+	            android:textSize="@dimen/neirong"
+	            android:button="@drawable/myselector_radiobutton"
+	            />
+        
+	        <RadioButton 
+	            android:id="@+id/rb_other"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="   其他"
+	            android:textColor="@color/gray1"
+	            android:textSize="@dimen/neirong"
+	            android:button="@drawable/myselector_radiobutton"
+	            />
+        </RadioGroup>
+    </LinearLayout>
+    
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:background="@drawable/myselector_shortlayout"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="详细说明"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main"
+            />
+            
+            <TextView 
+                android:id="@+id/tv_other"
+                android:padding="10dp"
+                android:layout_height="200dp"
+                android:layout_width="300dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/etbackground"
+                android:textColor="@color/gray1"
+	            android:textSize="@dimen/neirong"
+            />
+        </LinearLayout>
+        </LinearLayout>
+  </ScrollView>
+       <AbsoluteLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           >
+
+           <Button
+               android:id="@+id/button1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_x="396dp"
+               android:layout_y="33dp"
+               android:text="返回" 
+               android:background="@drawable/myselector_bt"
+               android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+
+           <Button
+               android:id="@+id/button2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_x="775dp"
+               android:layout_y="33dp"
+               android:text="下一页" 
+               android:background="@drawable/myselector_bt"
+               android:textColor="@color/black"
+                        android:textSize="@dimen/main" />
+           
+       </AbsoluteLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

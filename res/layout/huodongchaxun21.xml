@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b2" >
+<RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="活动商户清单"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/right_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="221dp"
+        android:layout_y="352dp" >
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ss_layout"
+        android:layout_width="850dp"
+        android:layout_height="255dp"
+        android:layout_x="218dp"
+        android:layout_y="326dp" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="678dp"
+        android:layout_y="589dp"
+        android:background="@drawable/myselector_bt"
+        android:text="返回"
+        android:textColor="@color/black"
+        android:textSize="@dimen/main" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="795dp"
+        android:layout_height="104dp"
+        android:layout_x="363dp"
+        android:layout_y="110dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="209dp"
+        android:layout_y="223dp"
+        android:text="活动内容"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="772dp"
+        android:layout_height="101dp"
+        android:layout_x="363dp"
+        android:layout_y="223dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="209dp"
+        android:layout_y="111dp"
+        android:text="活动主题"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title" />
+    
+</AbsoluteLayout>

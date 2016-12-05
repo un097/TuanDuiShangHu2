@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="457dip"
+    android:layout_height="50dip"
+    android:background="@drawable/layout"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/h2edtext10"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/myselector_shortlayout"
+        android:gravity="center"
+        android:textColor="@color/gray1"
+        android:textSize="@dimen/neirong" />
+</LinearLayout>

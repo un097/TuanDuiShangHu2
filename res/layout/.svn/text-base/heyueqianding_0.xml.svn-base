@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b2" >
+  <RelativeLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="合约签订"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+        </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/right_linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="464dp"
+    android:layout_x="69dp"
+    android:layout_y="126dp"
+    android:orientation="horizontal"
+    android:paddingLeft="55dip"
+    android:paddingRight="140dip" >
+          
+</LinearLayout>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="823dp"
+    android:layout_y="592dp"
+    android:background="@drawable/myselector_bt"
+    android:text="返回"
+    android:textColor="@color/black"
+    android:textSize="@dimen/main" />
+    
+</AbsoluteLayout>

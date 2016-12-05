@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b2" >
+	 <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="文宣品拍摄"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title" />
+        </RelativeLayout>
+    <AbsoluteLayout 
+        android:layout_width="fill_parent"
+   	 	android:layout_height="0dp"
+   	 	android:layout_weight="1"
+        >
+
+        <ListView
+            android:id="@+id/lv_gongdan4_imageList"
+            android:layout_width="169dp"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:layout_x="779dp"
+            android:layout_y="107dp"
+            android:divider="#00000000"
+            android:fadeScrollbars="true" >
+        </ListView>
+
+       
+
+
+        <Button
+            android:id="@+id/btn_gongdan4_takephoto1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_x="318dp"
+            android:layout_y="181dp"
+            android:background="@drawable/myselector_changbt"
+            android:text="入口区拍摄(必选)"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/btn_gongdan4_takephoto2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_x="318dp"
+            android:layout_y="256dp"
+            android:background="@drawable/myselector_changbt"
+            android:text="餐桌区拍摄(必选)"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+        <Button
+            android:id="@+id/btn_gongdan4_takephoto3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_x="318dp"
+            android:layout_y="336dp"
+            android:background="@drawable/myselector_changbt"
+            android:text="收银区拍摄(必选)"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main" />
+
+    </AbsoluteLayout>
+    
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_gongdan4_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/b4" />
+
+        <Button
+            android:id="@+id/btn_gongdan4_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/b5" />
+    </RelativeLayout>
+
+</LinearLayout>

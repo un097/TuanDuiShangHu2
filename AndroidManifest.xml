@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="techown.shanghu"
+    android:sharedUserId="jetchen.shared.db"
+    android:versionCode="5"
+    android:versionName="6.0.0.5" >
+
+    <!--
+    	
+    	生产版本号: 6.0.0.5   20160708修改
+    	ver_code:5
+    	
+    	UAT: 3.1.5.3      20160708修改
+    	UAT_code: 53
+  	
+    -->
+    <uses-sdk android:minSdkVersion="13" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:name=".CrashApplication" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".TuanDuiShangHuActivity"
+            android:screenOrientation="landscape" >
+
+           
+            <intent-filter >      
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YuShen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PadUtiltiy"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".MendianList"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".MendianList1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HuoDong_ZhongBu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".CaoGaoXiang"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_0"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_1_1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_21"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_3_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_31"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_4_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_41"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_441"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.hxsmart.imateinterface.extension.CameraTestActivity" >
+        </activity>
+        <activity android:name="com.hxsmart.imateinterface.extension.CameraDataHandleActivity" >
+        </activity>
+        <activity
+            android:name="com.hxsmart.imateinterface.extension.ZbarActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name="com.YinanSoft.CardReaders.SerialPortPreferences" >
+        </activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_451"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_5_5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_51"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ShangHuChaXun"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="YouHuiShangXian_TeHui21"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="YouHuiShangXian_TeHui211"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_ZuiHong"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_ZuiHong2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_ZuiHong3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_ZuiHong31"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_ZuiHong4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ZhongBuHuoDong1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ZhongBuHuoDong2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ZhongBuHuoDong3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ZhongBuHuoDong31"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ChengShiChaXun4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ZhongBuChaXun4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanWeiHu1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanWeiHu2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanWeiHu3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanWeiHu4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanWeiHu41"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanFanKui1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanFanKui2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanFanKui3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ChengShiHuoDong1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ChengShiHuoDong2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ChengShiHuoDong3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ChengShiHuoDong31"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".ChengShiHuoDong22"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HuoDongChaXun"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HuoDongChaXun21"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HuoDongChaXun22"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HuoDongChaXun31"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_45"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_44"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".GongDanWeiHu3_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_21_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_31_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_41_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".HeYueQianDing_51_5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui2_9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui21_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui4_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui4_9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_ZuiHong3_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.GongDanTakePhotoActivity_1_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.TakePhotoActivity2_2_5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.YouHuiTakePhotoActivity_1_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.YouHuiTakePhotoActivity_6_9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.YouHuiTakePhotoActivity2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="techown.shanghu.photo.CaptureImage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.TakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.TakePhotoActivity_1_5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CopyOfYouHuiTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.TakePhotoActivity1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.TakePhotoActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.YouHuiTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.YouHuiTakePhotoActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.GongDanTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="jetchen.test.TakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="jetchen.test.YouHuiTakePhoto"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="jetchen.test.YouHuiTakePhoto2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="jetchen.test.GongDanTakePhoto"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".WentiGongDan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".WentiGongDan1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YouHuiShangXian_TeHui211"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CaoTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CGXfTakePhotoActivity1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CGXGongdanPhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CGXYHTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CGXYHTakePhotoActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CaoTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CGXYHTakePhotoActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CGXYHTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.CaoYouHuiTakePhotoActivity2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.GDTPhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.COfCOfYHTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedNumber"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedYuShen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedBigArea"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedCompanyMessage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedShopList"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedShopMessage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedPosterMessage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedActivityMessage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.RedTakePhotoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name="techown.shanghu.photo.RedTakePhotoActivityBox"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedActivityMessageBox"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedPosterMessageBox"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedShopMessageBox"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".RedCompanyMessageBox"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YuShenSucc"
+            android:screenOrientation="landscape" />
+        <activity
+            android:launchMode="singleTask"
+            android:name=".YuShenFail"
+            android:screenOrientation="landscape" />
+
+         <!-- 商户wifi相关activity -->  
+		 <activity android:name=".ShangHuWifiWenTi1"  android:launchMode="singleTask"
+		            android:screenOrientation="landscape"/>
+		 <activity android:name=".WenTiTiBao"  android:launchMode="singleTask"
+		            android:screenOrientation="landscape"/>
+		 <activity android:name=".WifiStateChaXun"  android:launchMode="singleTask"
+		            android:screenOrientation="landscape"/>
+		 <!-- 门店进件异常工单 -->
+		 <activity android:name=".MenUnusualGongDan"  android:launchMode="singleTask"
+		            android:screenOrientation="landscape"/>
+        
+		  <!-- 商户工单维护 -->
+		 <activity android:name=".SHGongDanWeiHu"  android:launchMode="singleTask"
+		            android:screenOrientation="landscape"/>
+		 <activity android:name=".SHGongDanWeiHu_1"  android:launchMode="singleTask"
+		            android:screenOrientation="landscape"/>
+		 <activity android:name=".SHGongDanWeiHu_2"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		  <activity android:name=".SHGongDanWeiHu_3"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		   <activity android:name=".SHGongDanWeiHu_4"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		   <activity android:name=".SHGongDanWeiHu_5"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		  <activity android:name=".SHGongDanWeiHu_6" 
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		   <activity android:name=".SHGongDanWeiHu_7"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		    <activity android:name=".SignActivity"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		    <!-- 草稿箱商户工单维护 -->
+		  <activity android:name=".CGXSHGongDanWeiHu_22"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		  <activity android:name=".CGXSHGongDanWeiHu_32"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		   <activity android:name=".CGXSHGongDanWeiHu_42"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		   <activity android:name=".CGXSHGongDanWeiHu_52"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		  <activity android:name=".CGXSHGongDanWeiHu_62" 
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		   <activity android:name=".CGXSHGongDanWeiHu_72"  android:launchMode="singleTask"
+		           android:windowSoftInputMode="adjustNothing"
+		            android:screenOrientation="landscape"/>
+		    
+		 
+        <service android:name=".https.PostService" >
+            <intent-filter >
+                <action android:name="techown.shanghu.https.PostService" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".ExampleAppWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/myappwidgetprovider" />
+        </receiver>
+        <receiver android:name=".StartPostSrvReceiver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 澹版槑闇�鍐欏瓨鍌ㄥ崱鏉冮檺 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <user-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <user-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOVE_PACKAGE" />
+    <uses-permission android:name="android.permission.BACKUP" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

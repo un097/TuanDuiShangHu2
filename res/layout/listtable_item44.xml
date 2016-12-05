@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+
+
+    <TextView
+        android:background="#ffffff"
+        android:id="@+id/listtable_tv6"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:paddingRight="5dip"
+        android:gravity="bottom|center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+	<TextView
+        
+        android:id="@+id/listtable_tv0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:paddingRight="5dip"
+        android:gravity="bottom|center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    <TextView
+        android:background="#ffffff"
+        android:id="@+id/listtable_tv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="bottom|center"
+        android:paddingRight="5dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+
+    <TextView
+        android:id="@+id/listtable_tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="bottom|center"
+                android:paddingRight="5dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+
+    <TextView
+        android:background="#ffffff"
+        android:id="@+id/listtable_tv3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:gravity="bottom|center"
+                android:paddingRight="5dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+
+    <TextView
+        android:id="@+id/listtable_tv4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+                android:paddingRight="5dip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+
+    <TextView
+        android:background="#ffffff"
+        android:id="@+id/listtable_tv5"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:gravity="bottom|center"
+        android:paddingRight="5dip"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btnTextSizebody" />
+
+    
+
+    <techown.shanghu.biaoge.MyButton
+        android:id="@+id/shortcut_delete"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myselector_bt"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="选择"
+        android:textColor="@color/black" />
+
+</LinearLayout>

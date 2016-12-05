@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PDA/!svn/ver/33/trunk/android%E5%89%8D%E7%AB%AF/PDA%E4%B8%89%E4%BB%A3/TuanDuiShangHu/libs/armeabi
+END
+libIDCardReader.so
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PDA/!svn/ver/33/trunk/android%E5%89%8D%E7%AB%AF/PDA%E4%B8%89%E4%BB%A3/TuanDuiShangHu/libs/armeabi/libIDCardReader.so
+END
+libDecodeWlt.so
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PDA/!svn/ver/33/trunk/android%E5%89%8D%E7%AB%AF/PDA%E4%B8%89%E4%BB%A3/TuanDuiShangHu/libs/armeabi/libDecodeWlt.so
+END
+libwltdecode.so
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PDA/!svn/ver/33/trunk/android%E5%89%8D%E7%AB%AF/PDA%E4%B8%89%E4%BB%A3/TuanDuiShangHu/libs/armeabi/libwltdecode.so
+END
+libiconv.so
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PDA/!svn/ver/33/trunk/android%E5%89%8D%E7%AB%AF/PDA%E4%B8%89%E4%BB%A3/TuanDuiShangHu/libs/armeabi/libiconv.so
+END
+libZBarDecoder.so
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PDA/!svn/ver/33/trunk/android%E5%89%8D%E7%AB%AF/PDA%E4%B8%89%E4%BB%A3/TuanDuiShangHu/libs/armeabi/libZBarDecoder.so
+END
